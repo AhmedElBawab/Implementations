@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;LinkedList.deleteLats()&apos; to &apos;removeLast&apos;&#x0D;&#x0A;- Original project: &apos;Linked List Revisist&apos;&#x0D;&#x0A;- Original element: &apos;LinkedList.deleteLats()&apos;&#x0D;&#x0A;- Renamed element: &apos;LinkedList.removeLast()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;deleteLats&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{LinkedList.java[LinkedList~deleteLats" name="removeLast" references="true" stamp="1500923758015" version="1.0"/>
+</session>

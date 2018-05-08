@@ -1,0 +1,42 @@
+package application;
+
+import java.io.IOException;
+
+import com.sun.glass.ui.Window;
+
+import javafx.application.Platform;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.stage.Stage;
+
+public class MyController {
+	
+
+	public void startButton(ActionEvent e) throws IOException{
+		Stage primaryStage = new Stage(); 
+		Parent root  = FXMLLoader.load(getClass().getResource("Start.fxml"));
+		Scene scene = new Scene(root,1200,600);
+		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+		primaryStage.setScene(scene);
+		primaryStage.setTitle("TABULAR METHOD APP ^_^");
+		primaryStage.show();
+	}
+	
+	public void endButton(ActionEvent e) throws IOException{
+		Stage primaryStage = new Stage(); 
+		Parent root  = FXMLLoader.load(getClass().getResource("Close.fxml"));
+		Scene scene = new Scene(root,400,200);
+		//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+		primaryStage.setScene(scene);
+		primaryStage.setTitle("TABULAR METHOD APP ^_^");
+		primaryStage.show();
+	}
+	
+	public void close(ActionEvent e){
+		
+	}
+}
